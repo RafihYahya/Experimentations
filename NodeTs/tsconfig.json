@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "nodenext",
+        "strict": true,
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "target": "es6",
+        "allowJs":true,
+        "checkJs":true,
+        "moduleResolution": "nodenext",
+        "sourceMap": true,
+        "outDir": "dist"
+    },
+    "lib": [
+        "es2015"
+    ]
+}
