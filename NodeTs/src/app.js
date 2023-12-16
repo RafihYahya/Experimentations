@@ -8,3 +8,16 @@ var server = http.createServer(function (req, rep) {
     rep.end('Hello World');
 }).listen(9988);
 console.log('Server running at MIAW');
+var halo4 = {
+    name: 'miaw',
+    online: false,
+    fn: function (a) { return console.log(a); },
+};
+var halo2 = {
+    name: 'miaw',
+    title_id: 16,
+    online: false,
+    fn: function (a) { return console.log(a); },
+};
+halo2.fn(16);
+halo4.fn(162);

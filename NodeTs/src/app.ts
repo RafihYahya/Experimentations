@@ -37,5 +37,6 @@ let halo2:halo = {
     online:false,
     fn: (a:number) => console.log(a),
 }
+
 halo2.fn(16);
-halo4.fn(24);
+halo4.fn(162);
